@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	width: 100%;
+}
+.background-image{
+	height:300px ;
+	width: 100%;
+	background-image:url(../images/bg.jpg);
+    padding-top: 5px;
+    
+}
+.background-image-header{
+	display: flex;
+    padding-left: 155px;
+}
+
+.banner-box{
+	height: 50px;
+	width: 77%;
+	margin: 0 auto;
+	text-align: center;
+
+    margin-left: 200px;
+}
+.banner-box-1{
+	font-size:40px ;
+	font-family:'Poppins', sans-serif ;
+	font-weight:600 ;
+	color: #fff;
+	/* line-height: 1.5; */
+	letter-spacing:-1px ;
+	
+}
+.banner-box-2{
+	font-weight:100 ;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" ;
+	font-size:16px ;
+	color:#fff ;
+	/* line-height:1.6 ; */
+	width:63% ;
+	margin: 0 auto;
+}
+
+.layer-6{
+	background-color:#ebecf1;
+}
+.layer-6-box{
+	width: 80%;
+	margin: 0 auto;
+	height: 550px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+.layer-6-box-1{
+	box-shadow: 0 2px 40px rgb(0 0 0 / 8%);
+	width: 23%;
+	padding: 28px 0px;
+	border-radius: 8px;
+    background-color: #fff;
+}
+.layer-6-box-1-inner{
+	text-align: center;
+
+}
+.layer-6-box-1-inner-1{
+	font-size: 58px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #062a4d;
+}
+.layer-6-box-1-inner-2{
+	font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #062a4d;
+}
+
+.kk{
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    color:#758799
+}
+
+.search{
+    background: #fff;
+    width:90%;
+    max-width: 700px;
+    display: flex;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 15%;
+     
+
+}
+ #select{
+    background: #160053;
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+    color: #fff;
+    width: 200px;
+    padding: 15px 30px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 4px;
+
+ }
+ #select img{
+    width: 15px;
+    box-shadow: darkcyan;
+
+ }
+
+ #select ul{
+    position:absolute;
+    top:120%;
+    left:0;
+    background: #fff;
+    color:#555;
+    list-style: none;
+    width:100%;
+    border-radius: 4px;
+    max-height: 0;
+    overflow: hidden;
+    transition:  max-height 0.5s;
+   
+     
+ }
+ #select ul li{
+    padding: 10px 20px;
+    cursor: pointer;
+
+
+ } 
+ .search input{
+    padding: 10px 25px;
+    width:100%;
+    border:none;
+    outline: none;
+    font-size: 18px;
+ }
+ #select ul.open{
+    max-height:300px;
+ }
+
+ 
